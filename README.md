@@ -45,3 +45,17 @@ When you get HTTP status code 200 you succeed to send message to us.
 
 ## Mobile App UI
 
+![alt text](https://raw.githubusercontent.com/cloverstudio/job_application_2017/master/mobileappui.jpg)
+
+### iOS developer
+
+Please use ObjectiveC or Swift for application.
+
+### Android developer
+
+Please use Java or Kotlin for application.
+
+### Backend
+
+Use any language you know. 
+**No need to make UI for backend developers**
