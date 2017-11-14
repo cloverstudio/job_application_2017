@@ -1,12 +1,12 @@
 # Job Application 2017
 
-Write an simple app to send us message from our chat API.
+Write a simple app that sends us a message from our chat API.
 
 ## API Spec
 
 ### Login
 
-First login to our messenger backend with this user.
+First login to our messenger backend with the user belove.
 - organization : clover
 - username : jobapplicant
 - password : pQw4md4YZR
@@ -19,12 +19,12 @@ First login to our messenger backend with this user.
     - "apikey: GMUwQIHielm7b1ZQNNJYMAfCC508Giof"
     - "Content-Type: application/json; charset=utf-8"
 
-- Request Json Body 
+- Request Json Body
     - organization : clover
     - username : jobapplicant
     - password : pQw4md4YZR
 
-If you succeed to call, this API will return "access-token" which is used to next step.
+If the API call is a success, "access-token" will be returned.
 
 ### Send Message API spec
 
@@ -35,13 +35,13 @@ If you succeed to call, this API will return "access-token" which is used to nex
     - "Content-Type: application/json; charset=utf-8"
     - "access-token: xxxxxxxxxxxxxxxx" <- Use access token from previous step
 
-- Request Json Body 
+- Request Json Body
     - targetType : 3
     - messageType : 1
     - target : 5a05ccd4829e64fd1dcd7732
     - message : "your email address" <- Please send us your email address.
 
-When you get HTTP status code 200 you succeed to send message to us.
+When you get HTTP status code 200, your message has been sent to us.
 
 ## Mobile App UI
 
@@ -57,5 +57,5 @@ Please use Java or Kotlin for application.
 
 ### Backend
 
-Use any language you know. 
+Use any language you know.
 **No need to make UI for backend developers**
